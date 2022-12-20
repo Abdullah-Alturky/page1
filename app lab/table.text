@@ -1,0 +1,67 @@
+	<!DOCTYPE html>
+	
+	<html>
+	
+		<head>
+			<meta charset = "utf-8">
+			<title>Table</title>
+		
+		</head>
+		<body>
+			
+			<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+			<table border="1" style="width:100%">
+				
+				<caption>a smaple table (complex)</caption>
+				
+				<thead>
+					<tr>
+						<th rowspan="2">
+						<img src ="C:\Users\ABDUL\Desktop\app lab\p2.png" width="150" height="150">
+						</th>
+					
+					<th colspan="4">
+					camelid cpmparison <br>Approximate as of 6/2007
+					</tr>
+					<tr>
+						<th>#of humps</th>
+						<th>indigounes region</th>
+						<th>spits?</th>
+						<th>produces wool?</th>
+					</tr>	
+					
+				</thead>
+				<tbody>
+					<tr>
+						<td>camels(bactrain)</td>
+						<td>2</td>
+						<td>African/Asian</td>
+						<td>Yes</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>Llamas</td>
+						<td>1</td>
+						<td>Andes mountains</td>
+						<td>Yes</td>
+						<td>Yes</td>
+					</tr>
+				<form method="post">
+				<p><label>name:
+				<input name:="name" type=text size=5 maxlength=2>
+				</label></p>
+				
+				</table>
+					<p>
+					<a href ="forms.html">Feedback</a>
+					</p>
+		</body>
+	</html>
+	
